@@ -19,10 +19,11 @@ dist/
 *.swp
 *.swo
 
-# OS
+# OS (Google Drive creates desktop.ini in .git/ - use clean-git.bat to fix)
 .DS_Store
 Thumbs.db
 desktop.ini
+**/desktop.ini
 
 # Logs
 *.log
