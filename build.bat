@@ -28,6 +28,7 @@ pyinstaller --onefile --windowed --name=FFmpegSetup --clean ^
     --icon=assets/icon.ico ^
     --add-data "src/core;core" ^
     --add-data "src/ui;ui" ^
+    --add-data "src;." ^
     --add-data "assets;assets" ^
     src/main.py
 
